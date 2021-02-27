@@ -21,14 +21,10 @@ public class MaxMultiplicationOf3 {
 				third = second;
 				second = first;
 				first = num[i];
-				
-				
 
 			} else if (second < num[i]) {
 				third = second;
 				second = num[i];
-
-				
 
 			} else if (third < num[i]) {
 				third = num[i];
